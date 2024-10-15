@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alert on Click</title>
+</head>
+<body>
+    <!-- Chapter 43-48 -->
+    <!-- Q# 01 -->
+
+    <a href="#" onclick="showAlert()">Click here!</a>
+    <!-- Q# 02 -->
+    <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;"> VIVO MOBILE PHONE </h1>
+
+    <img src="img/mobile img.jpg" alt="Mobile 1" width="150" onclick="showAlert('Model vivo y78 price :78000 pkr')">
+    <img src="img/mobile 2.jfif" alt="Mobile 2" width="170" onclick="showAlert('Model vivo v30 price :139000 pkr')">
+    <img src="img/mobile 3.jpg" alt="Mobile 3" width="200" onclick="showAlert('Model vivo c 47 price :145000 pkr')">
+
+    <!-- Q# 03 -->
+    <h2>Student Records</h2>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>saad</td>
+                <td>6th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ali</td>
+                <td>10th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ahmed</td>
+                <td>9th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ayesha</td>
+                <td>8th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Hassan</td>
+                <td>11th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sara</td>
+                <td>7th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Usman</td>
+                <td>12th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Zainab</td>
+                <td>10th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bilal</td>
+                <td>9th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Fatima</td>
+                <td>8th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Kamran</td>
+                <td>11th</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="app2.js"></script>
+
+    <!-- Q# 04 -->
+
+    <img src="img/Beauty product.jpg" alt="" onmouseover="src = 'img/beauty-products 2.avif'" onmouseout="src = 'img/skin care.avif'" width="200px" height="200opx">
+
+
+
+    <!-- Q# 05 -->
+    <h1>Counter</h1>
+    <!-- Display the counter value -->
+    <p>Counter Value: <span id="counter">0</span></p>
+
+    <!-- Buttons to increase and decrease the counter -->
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+
+
+    <script src="app2.js"></script>
+
+
+
+
+
+   
+
+</body>
+</html>

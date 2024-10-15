@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- ================> Chapter 49 - 52 <================-->
+    <!-- Q# 01 -->
+    <h2>Sign Up Form</h2>
+
+    <!-- Sign up form -->
+    <form id="signUpForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <div id="output"></div>
+
+    <!-- Q# 02 -->
+     <!-- Item details content -->
+    <div>
+        <h2>Item Title</h2>
+        <p>
+            This is an amazing item with great features. <span id="moreText" style="display:none;">
+            It has top-notch performance, long-lasting durability, and comes with a 2-year warranty.
+            Additionally, it includes free shipping and a 30-day return policy. Don't miss out on this incredible deal!
+            </span>
+        </p>
+
+        <!-- Read more/less button -->
+        <button id="readMoreBtn" onclick="toggleText()">Read more</button>
+    </div>
+
+    <!-- Q# 03 -->
+
+    <h2>Student Details Form</h2>
+    <form id="studentForm">
+        <label for="studentName">Name:</label>
+        <input type="text" id="studentName" required><br><br>
+
+        <label for="studentAge">Age:</label>
+        <input type="number" id="studentAge" required><br><br>
+
+        <label for="studentGrade">Grade:</label>
+        <input type="text" id="studentGrade" required><br><br>
+
+        <button type="submit">Add Student</button>
+    </form>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Student details will be added here -->
+        </tbody>
+    </table>
+
+    <div id="editForm" class="hidden">
+        <h3>Edit Student</h3>
+        <label for="editName">Name:</label>
+        <input type="text" id="editName" required><br><br>
+
+        <label for="editAge">Age:</label>
+        <input type="number" id="editAge" required><br><br>
+
+        <label for="editGrade">Grade:</label>
+        <input type="text" id="editGrade" required><br><br>
+
+        <button id="saveChanges">Save Changes</button>
+    </div>
+
+
+
+
+    <script src="app3.js"></script>
+
+
+
+    
+</body>
+</html>
